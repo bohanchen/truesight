@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Hind+Vadodara');
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.background{
+    background-image: url("background/1.jpg");
+    height: 100%;
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    
+}
+
+
+#header h1{
+    padding: 30px;
+    text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+    font-family: "Anton", sans-serif;
+    text-transform: uppercase;
+    background-color: rgba(0,0,0,0.7);
+}
+
+#header ul {
+    list-style: none;
+    text-align: center;
+    background-color: rgba(0,0,0,0.4);
+    padding: 10px;
+}
+
+
+#header li{
+    display: inline;
+    margin-left: 1%;
+    font-size: 15px;
+    font-family: "Hind Vadodara", sans-serif;
+    color: aliceblue;
+}
+
+#header a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+#header a:hover{
+    text-decoration: underline;
+}
+
+.intro{
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    width: 50%;
+    
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+/*    opacity: 0.8;*/
+}
+
+audio{
+    display: none;
+}
+
+
+
+
+
+
